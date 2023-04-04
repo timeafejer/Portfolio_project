@@ -56,6 +56,12 @@ main {
     justify-content: space-around;
 }
 
+#about-text {
+    box-shadow: rgba(225, 107, 255, 0.7) 0px 5px 10px 5px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    }
+
 #details {
     display: flex;
     justify-content: space-evenly;
