@@ -39,7 +39,8 @@ ul#menu {
 }
 
 #menu a:hover {
-    color: #7600a8;
+    color: #8914A6;
+    text-decoration: underline;
 }
 
 
