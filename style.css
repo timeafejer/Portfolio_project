@@ -46,6 +46,11 @@ ul#menu {
 
 /*Main*/
 
+main {
+    position: relative;
+    top: 6rem;
+    }
+
 #about {
     display: flex;
     justify-content: space-around;
