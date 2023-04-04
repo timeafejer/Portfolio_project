@@ -73,6 +73,12 @@ main {
     margin: 2rem 0;
 }
 
+#skills img {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+}
+
 #about, #details {
     margin: 6% 0;
 }
