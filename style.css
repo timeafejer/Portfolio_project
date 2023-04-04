@@ -112,6 +112,8 @@ input, label, textarea {
 
 #submit {
     cursor: pointer;
+    padding: 0.25rem 1rem;
+    margin: 1rem 0;
 }
 
 #submit:hover {
