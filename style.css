@@ -135,7 +135,7 @@ input, label, textarea {
     cursor: pointer;
 }
 
-button:hover {
+#scroll-to-top:hover {
     background-color: #E16BFF;
 }
 
