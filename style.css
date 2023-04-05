@@ -121,6 +121,24 @@ input, label, textarea {
     color: white;
 }
 
+#up-arrow {
+    width: 2rem;
+    height: 2rem;   
+}
+
+#scroll-to-top {
+    border: 0.1rem solid #7600a8;
+    border-radius: 50%;
+    position: fixed;
+    right: 2rem;
+    bottom: 5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E16BFF;
+}
+
 /*Footer*/
 
 footer {
