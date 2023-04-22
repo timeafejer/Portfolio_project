@@ -212,3 +212,214 @@ footer {
     margin: 3rem 0 0;
     font-size: 0.75rem;
 }
+
+
+/*Media queries*/
+
+@media only screen and (min-width: 550px) {
+    .hamburger-button {
+        visibility: hidden;
+    }
+
+    ul#menu {
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    
+    /*Header*/
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    #menu li {
+        margin: 0 1rem;
+    }
+
+    /*Main*/
+
+    #skills img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    #contact {
+        width: 60%;
+        margin: 0 20% 10%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+
+    /*Header*/
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    #menu li {
+        margin: 0 0.75rem;
+    }
+
+    #menu a {
+        font-size: 1rem;
+    }
+
+    /*Main*/
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /*Main*/
+
+    main {
+        top: 4rem;
+    }
+
+    #about {
+        margin: 8% 2%;
+    }
+
+    #about-text p {
+        font-size: 0.9rem;
+    }
+
+    #skills, #projects {
+        margin: 1rem 0;
+    }
+
+    #projects p {
+        font-size: 1rem;
+    }
+
+    #contact {
+        width: 75%;
+        margin: 0 12.5% 10%;
+        font-size: 0.9rem;
+    }
+
+    #scroll-to-top {
+        right: 1rem;
+        bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 685px){
+    
+    /*Header*/
+    
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    #menu li {
+        margin: 0 0.5rem;
+    }
+
+    #menu a {
+        font-size: 0.9rem;
+    }
+
+    /*Main*/
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    #avatar {
+        width: 9rem;
+        height: auto;
+    }
+
+    #skills img {
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 0.75rem;
+    }
+
+    #projects p {
+        font-size: 0.9rem;
+    }
+
+    #up-arrow {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+
+    /*Header*/
+    
+    #menu a {
+        font-size: 0.8rem;
+    }
+
+    /*Main*/
+
+    main {
+        top: 1rem;
+    }
+
+    #about {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    /*Contact*/
+
+    #contact {
+        width: 90%;
+        margin: 0 5% 10%;
+        font-size: 0.8rem;
+    }
+
+    input, label, textarea {
+        margin: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 549px) {
+    
+    /*Header*/
+
+    header {
+        justify-content: space-between;
+    }
+
+ul#menu {   
+        display: block;
+        position: absolute;
+        top: 1rem;
+        left: -7.5rem;
+        width: 6rem;
+        text-align: center;
+        background-color: #E16BFF;
+        border-radius: 0.5rem;
+    }
+
+    #menu li {
+        margin: 0.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 350px){
+
+/*Main*/
+
+    main {
+        top: 1.5rem;
+    }
+
+    /*Contact*/
+
+    input, textarea {
+        width: 80%;
+    }
+}
